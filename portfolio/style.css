@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin sans' ,sans-serif;
+    box-sizing: border-box;
+}
+.port{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background: #000000;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav h1{
+    color: rgb(167, 203, 203);
+    align-items: baseline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(246, 245, 245);
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: darkred;
+}
+.writing{
+    color: aliceblue;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.writing h1{
+    font-size: 50px;
+    color: azure;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(143, 94, 94);
+    font-style: oblique 40deg;
+}
+.writing p{
+    color: rgb(145, 150, 150);
+    line-height: 22px;
+}
+
+.writing a{
+    background-color: azure;
+    padding: 10px  18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.writing a:hover{
+    color: darkred;
+}
+.image{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.image:hover .shape{
+    bottom: 40px;
+}
+.image:hover .ak{
+    left: 45%;
+}
+.image .ak{
+    color: rgb(114, 112, 112);
+}
+.image .shape{
+    padding-top: 80px;
+}
+.sk{
+    color: rgb(145, 150, 150);;
+}
+li{
+   color:rgb(145, 150, 150);
+}
